@@ -1,0 +1,32 @@
+html, body {
+  margin:0;
+}
+.shrikhand {
+  font-family: 'Shrikhand', cursive;
+
+}
+#billmurray {
+  width: 100vw;
+  height:100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image:  linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.fillmurray.com/800/1200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+.vcenter{
+  align-items:center;
+}
+.hcenter{
+  justify-content:center;
+}
+#clock{
+  font-size: 14vw;
+}
+#ampm{
+  font-size: 7vw;
+}
